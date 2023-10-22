@@ -25,32 +25,32 @@ namespace ChuKhaBanh_v2
 
         private void btnConvert_Click(object sender, EventArgs e)
         {
-            textEdit.Text = rtbInput.Text;
-            if (textEdit.Text.Length > 0)
+            this.textEdit.Text = this.rtbInput.Text;
+            if (this.textEdit.Text.Length > 0)
             {
-                textEdit.Text = textEdit.ConvertStyle1();
-                lbResult.Text = textEdit.Text;
-                lbHistory.Items.Add(textEdit.ShortText);
+                this.textEdit.Text = this.textEdit.ConvertStyle1();
+                this.lbResult.Text = this.textEdit.Text;
+                this.lbHistory.Items.Add(this.textEdit.ShortText);
             }
             else
             {
-                lbResult.Text = "Nhập chuỗi trước khi ấn nút Chuyển đổi!";
+                this.lbResult.Text = "Nhập chuỗi trước khi ấn nút Chuyển đổi!";
             }
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-            lbResult.Text = "";
-            rtbInput.Text = "";
+            this.lbResult.Text = "";
+            this.rtbInput.Text = "";
         }
 
         private void btnClearHistory_Click(object sender, EventArgs e)
         {
-            lbHistory.Items.Clear();
+            this.lbHistory.Items.Clear();
         }
         private void lbHistory_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-            Clipboard.SetText(textEdit.Text);
+            Clipboard.SetText(this.textEdit.Text);
         }
         private void lbResult_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -74,8 +74,13 @@ namespace ChuKhaBanh_v2
 
         private void cHuKhAbAnH_v2_Load(object sender, EventArgs e)
         {
-            lbWindowsVersion.Text += 
+            this.lbWindowsVersion.Text += 
                 Environment.OSVersion.VersionString + "\n (Compatibility mode)";
+        }
+
+        private void lbWindowsVersion_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

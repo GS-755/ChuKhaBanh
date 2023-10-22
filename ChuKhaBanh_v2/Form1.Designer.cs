@@ -47,10 +47,10 @@
             // 
             // rtbInput
             // 
-            this.rtbInput.Location = new System.Drawing.Point(34, 72);
-            this.rtbInput.Margin = new System.Windows.Forms.Padding(2);
+            this.rtbInput.Location = new System.Drawing.Point(45, 89);
+            this.rtbInput.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rtbInput.Name = "rtbInput";
-            this.rtbInput.Size = new System.Drawing.Size(402, 157);
+            this.rtbInput.Size = new System.Drawing.Size(535, 192);
             this.rtbInput.TabIndex = 0;
             this.rtbInput.Text = "";
             this.rtbInput.TextChanged += new System.EventHandler(this.rtbInput_TextChanged);
@@ -58,39 +58,36 @@
             // lbMessage
             // 
             this.lbMessage.AutoSize = true;
-            this.lbMessage.Location = new System.Drawing.Point(32, 24);
-            this.lbMessage.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbMessage.Location = new System.Drawing.Point(43, 30);
             this.lbMessage.Name = "lbMessage";
-            this.lbMessage.Size = new System.Drawing.Size(115, 13);
+            this.lbMessage.Size = new System.Drawing.Size(140, 16);
             this.lbMessage.TabIndex = 2;
             this.lbMessage.Text = "Nhập text ở ô bên dưới";
             // 
             // lbRemind
             // 
             this.lbRemind.AutoSize = true;
-            this.lbRemind.Location = new System.Drawing.Point(32, 45);
-            this.lbRemind.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbRemind.Location = new System.Drawing.Point(43, 55);
             this.lbRemind.Name = "lbRemind";
-            this.lbRemind.Size = new System.Drawing.Size(113, 13);
+            this.lbRemind.Size = new System.Drawing.Size(138, 16);
             this.lbRemind.TabIndex = 3;
             this.lbRemind.Text = "(Enter để xuống dòng)";
             // 
             // lbConvertHistory
             // 
             this.lbConvertHistory.AutoSize = true;
-            this.lbConvertHistory.Location = new System.Drawing.Point(465, 24);
-            this.lbConvertHistory.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbConvertHistory.Location = new System.Drawing.Point(620, 30);
             this.lbConvertHistory.Name = "lbConvertHistory";
-            this.lbConvertHistory.Size = new System.Drawing.Size(97, 13);
+            this.lbConvertHistory.Size = new System.Drawing.Size(116, 16);
             this.lbConvertHistory.TabIndex = 4;
             this.lbConvertHistory.Text = "Lịch sử chuyển đổi";
             // 
             // btnConvert
             // 
-            this.btnConvert.Location = new System.Drawing.Point(354, 236);
-            this.btnConvert.Margin = new System.Windows.Forms.Padding(2);
+            this.btnConvert.Location = new System.Drawing.Point(472, 290);
+            this.btnConvert.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnConvert.Name = "btnConvert";
-            this.btnConvert.Size = new System.Drawing.Size(82, 31);
+            this.btnConvert.Size = new System.Drawing.Size(109, 38);
             this.btnConvert.TabIndex = 6;
             this.btnConvert.Text = "Chuyển đổi";
             this.btnConvert.UseVisualStyleBackColor = true;
@@ -98,10 +95,10 @@
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(249, 236);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(2);
+            this.btnReset.Location = new System.Drawing.Point(332, 290);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(82, 31);
+            this.btnReset.Size = new System.Drawing.Size(109, 38);
             this.btnReset.TabIndex = 7;
             this.btnReset.Text = "Đặt lại";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -109,10 +106,10 @@
             // 
             // btnClearHistory
             // 
-            this.btnClearHistory.Location = new System.Drawing.Point(592, 27);
-            this.btnClearHistory.Margin = new System.Windows.Forms.Padding(2);
+            this.btnClearHistory.Location = new System.Drawing.Point(789, 33);
+            this.btnClearHistory.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClearHistory.Name = "btnClearHistory";
-            this.btnClearHistory.Size = new System.Drawing.Size(85, 31);
+            this.btnClearHistory.Size = new System.Drawing.Size(113, 38);
             this.btnClearHistory.TabIndex = 8;
             this.btnClearHistory.Text = "Xoá lịch sử";
             this.btnClearHistory.UseVisualStyleBackColor = true;
@@ -121,19 +118,18 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(32, 236);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(43, 290);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 13);
+            this.label4.Size = new System.Drawing.Size(52, 16);
             this.label4.TabIndex = 9;
             this.label4.Text = "Kết quả";
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(592, 445);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExit.Location = new System.Drawing.Point(789, 548);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(85, 31);
+            this.btnExit.Size = new System.Drawing.Size(113, 38);
             this.btnExit.TabIndex = 10;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -141,55 +137,61 @@
             // 
             // lbResult
             // 
-            this.lbResult.Location = new System.Drawing.Point(34, 275);
-            this.lbResult.Margin = new System.Windows.Forms.Padding(2);
+            this.lbResult.Location = new System.Drawing.Point(45, 338);
+            this.lbResult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lbResult.Multiline = true;
             this.lbResult.Name = "lbResult";
-            this.lbResult.Size = new System.Drawing.Size(402, 161);
+            this.lbResult.Size = new System.Drawing.Size(535, 197);
             this.lbResult.TabIndex = 11;
             this.lbResult.TextChanged += new System.EventHandler(this.lbResult_TextChanged);
             // 
             // lbHistory
             // 
             this.lbHistory.FormattingEnabled = true;
-            this.lbHistory.Location = new System.Drawing.Point(468, 72);
+            this.lbHistory.ItemHeight = 16;
+            this.lbHistory.Location = new System.Drawing.Point(624, 89);
+            this.lbHistory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbHistory.Name = "lbHistory";
-            this.lbHistory.Size = new System.Drawing.Size(209, 368);
+            this.lbHistory.Size = new System.Drawing.Size(277, 452);
             this.lbHistory.TabIndex = 12;
             this.lbHistory.SelectedIndexChanged += new System.EventHandler(this.lbHistory_SelectedIndexChanged_1);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(465, 45);
+            this.label1.Location = new System.Drawing.Point(620, 55);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 13);
+            this.label1.Size = new System.Drawing.Size(125, 16);
             this.label1.TabIndex = 13;
             this.label1.Text = "(Nhấn vào để copy)";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 254);
+            this.label2.Location = new System.Drawing.Point(41, 313);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 13);
+            this.label2.Size = new System.Drawing.Size(166, 16);
             this.label2.TabIndex = 14;
             this.label2.Text = "(Có thể chỉnh sửa nội dung)";
             // 
             // lbWindowsVersion
             // 
             this.lbWindowsVersion.AutoSize = true;
-            this.lbWindowsVersion.Location = new System.Drawing.Point(32, 445);
+            this.lbWindowsVersion.Location = new System.Drawing.Point(43, 548);
+            this.lbWindowsVersion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbWindowsVersion.Name = "lbWindowsVersion";
-            this.lbWindowsVersion.Size = new System.Drawing.Size(94, 13);
+            this.lbWindowsVersion.Size = new System.Drawing.Size(115, 16);
             this.lbWindowsVersion.TabIndex = 15;
             this.lbWindowsVersion.Text = "Windows version: ";
+            this.lbWindowsVersion.Click += new System.EventHandler(this.lbWindowsVersion_Click);
             // 
             // cHuKhAbAnH_v2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(713, 486);
+            this.ClientSize = new System.Drawing.Size(951, 598);
             this.Controls.Add(this.lbWindowsVersion);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -206,7 +208,7 @@
             this.Controls.Add(this.rtbInput);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "cHuKhAbAnH_v2";
             this.Text = "cHuKhAbAnH_v2";
