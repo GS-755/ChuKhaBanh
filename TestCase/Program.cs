@@ -4,7 +4,7 @@ namespace TestCase
 {
     public class Program
     {
-        private static string Text = "";
+        private static string Text { get; set; }
 
         public static string[] SplitString()
         {
@@ -34,13 +34,13 @@ namespace TestCase
         public static string ShortenText()
         {
             string shortText = "";
+            int len = Text.Length;
             Console.WriteLine($"\nOriginal text length: {Text.Length}\n");
             if (Text.Length > 10)
             {
-                for (int i = 0; i < 15; i++)
-                {
+                for (int i = 0; i < (int)(len / 2); i++)        
                     shortText += Text[i];
-                }
+        
                 shortText += "...";
 
                 return shortText;
@@ -62,8 +62,6 @@ namespace TestCase
                 string shortText = ShortenText();
 
                 // Output case
-                Console.WriteLine();
-                
                 Console.WriteLine(finalText);
                 Console.WriteLine($"Shorten text: {shortText}");
             }
