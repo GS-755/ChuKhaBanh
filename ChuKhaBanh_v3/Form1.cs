@@ -8,9 +8,9 @@ namespace ChuKhaBanh_v3
     public partial class Form1 : Form
     {
         private readonly string WINVER = 
-            $"{OSVersion.GetOSVersion().Version.Major}." +
+            $"{OSVersion.GetOperatingSystem()} (Build {OSVersion.GetOSVersion().Version.Major}." +
             $"{OSVersion.GetOSVersion().Version.Minor}." +
-            $"{OSVersion.GetOSVersion().Version.Build}";
+            $"{OSVersion.GetOSVersion().Version.Build})";
         private TextEdit textEdit = new TextEdit();
 
         public Form1()
